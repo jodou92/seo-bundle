@@ -1,5 +1,5 @@
 {
-    "name": "umanit/seo-bundle",
+    "name": "jodou92/seo-bundle",
     "description": "Provides SEO features on Doctrine entities.",
     "type": "symfony-bundle",
     "keywords": [
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|^8.0",
         "ext-json": "*",
         "spatie/schema-org": "^2.1",
         "ramsey/uuid": "^3.9|^4.1",

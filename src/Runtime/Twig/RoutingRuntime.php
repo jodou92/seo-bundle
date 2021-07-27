@@ -59,7 +59,7 @@ class RoutingRuntime implements RuntimeExtensionInterface
      *
      * @see \Symfony\Bridge\Twig\Extension\RoutingExtension::isUrlGenerationSafe
      */
-    public function isUrlGenerationSafe(Node $argsNode): array
+    public static function isUrlGenerationSafe(Node $argsNode): array
     {
         // support named arguments
         $paramsNode = $argsNode->hasNode('parameters') ?
